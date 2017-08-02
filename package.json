@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "app finds friends based on similarities",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandrakellwan/friendFinder.git"
+  },
+  "author": "chandrakellwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chandrakellwan/friendFinder/issues"
+  },
+  "homepage": "https://github.com/chandrakellwan/friendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bootstrap-slider": "^9.8.1",
+    "express": "^4.15.3"
+  }
+}
