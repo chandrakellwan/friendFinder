@@ -1,0 +1,32 @@
+body {
+    background-image: url(https://www.chobirdokan.com/wp-content/uploads/love-couples-wallpapers.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.jumbotron {
+    background-color: pink;
+    color: darkred;
+    opacity: .95;
+    margin-top: 40px;
+}
+
+#submit {
+    background: blue;
+}
+
+#jumbo_h2 {
+    color: black;
+}
+
+.btn-primary {
+    color: white;
+    background-color: blue;
+    border-color: black;
+}
+
+.panel-title {
+    color: black;
+}
