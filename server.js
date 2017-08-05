@@ -1,29 +1,30 @@
-var express = require("express");
-var bodyParser = require("body-parser");
-var path = require("path");
 
-// Sets up the Express App
-// =============================================================
+// sets up npm packages
+var express = require('express');
+var bodyParser = require('body-parser');
+var path = require('path');
+//path to grab data from
+var friends = require('./app/data/friends.js');
+
 var app = express();
+var PORT = process.env.PORT || 3000; // Sets an initial port.
 
+//makes static assets in the public folder available (style.css)
+app.use(express.static('app/public'));
 
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.text());
+app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 
+// routes
 
-var routes = require("./app/routing/htmlRoutes.js");
-var apiRoutes = require("./app/routing/apiRoutes.js");
+require('./app/routing/api-routes.js')(app);
+require('./app/routing/html-routes.js')(app);
+//============================================
+// server listening
 
-app.use("/", routes);
-app.use("/api", apiRoutes);
-
-app.use('/assets', express.static(path.join(__dirname, 'app/public')));
-app.use('/slider', express.static(path.join(__dirname, 'node_modules/bootstrap-slider/dist')));
-
-
-var PORT = process.env.PORT || 8080;
-
-var server = app.listen(PORT,function(){
-  console.log("Server listening on: http://localhost:%s", PORT);	
+app.listen(process.env.PORT || 3000, function() {
+    console.log("Server is listening!")
 });
