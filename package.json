@@ -19,7 +19,6 @@
   "homepage": "https://github.com/chandrakellwan/friendFinder#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
-    "bootstrap-slider": "^9.8.1",
     "express": "^4.15.3",
     "path": "^0.12.7"
   }
