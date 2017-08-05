@@ -173,7 +173,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">X</button>
-                        <h2 class="modal-title"><strong>Your most compatible friend</strong></h2>
+                        <h2 class="modal-title"><strong>Your perfect match:</strong></h2>
                     </div>
                     <div class="modal-body">
                         <h2 id="matchName"></h2>
@@ -230,8 +230,8 @@
 
                 });
             } else {
-                $(".modal-title").text("Missing required information");
-                $(".modal-body").html("<h3>Please complete the form before submitting</h3>");
+                $(".modal-title").text("Missing Info:");
+                $(".modal-body").html("<h3>Oops! Looks like you skipped a line or two.</h3>");
                 $("#resultsModal").modal('toggle');
 
             }
