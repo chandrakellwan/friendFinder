@@ -4,12 +4,12 @@ A full-stack, compatibility-based dating application that takes in user survey r
 
 This Application Utilizes:
 <br>
-<li><strong>Express</strong></li><br>
-<li><strong>Node.js</strong></li><br>
-<li><strong>Path</strong></li><br>
-<li><strong>Body-Parser</strong></li><br>
-<li><strong>HTML</strong></li><br>
-<li><strong>CSS</strong></li><br>
+<li><strong>Express</strong></li>
+<li><strong>Node.js</strong></li>
+<li><strong>Path</strong></li>
+<li><strong>Body-Parser</strong></li>
+<li><strong>HTML</strong></li>
+<li><strong>CSS</strong></li>
 
 App link: https://immense-river-42003.herokuapp.com/
 
