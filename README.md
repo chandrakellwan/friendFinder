@@ -1,15 +1,15 @@
 # friendFinder
 
-- A full-stack, compatibility-based dating application that takes in user survey results, then compares their answers with those of other users. The app then displays the name and picture of the user with the best overall match.
+A full-stack, compatibility-based dating application that takes in user survey results, then compares their answers with those of other users. The app then displays the name and picture of the user with the best overall match.
 
 This Application Utilizes:
 <br>
-<strong>Express</strong>
-<strongNode.js</strong>
-<strongPath</strong>
-<strongBody-Parser</strong>
-<strongHTML</strong>
-<strongCSS</strong>
+-<strong>Express</strong>
+-<strong>Node.js</strong>
+-<strong>Path</strong>
+-<strong>Body-Parser</strong>
+-<strong>HTML</strong>
+-<strong>CSS</strong>
 
 App link: https://immense-river-42003.herokuapp.com/
 
