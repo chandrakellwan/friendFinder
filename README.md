@@ -11,7 +11,7 @@ This Application Utilizes:
 <li><strong>HTML</strong></li>
 <li><strong>CSS</strong></li>
 <br>
-App link: https://immense-river-42003.herokuapp.com/
+App link: https://immense-river-42003.herokuapp.com
 <br>
 <br>
 
